@@ -1,0 +1,82 @@
+/* Modern, elegant theme */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #d46a6a;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #888;
+    margin-top: 0;
+}
+
+.video-section {
+    margin: 3rem 0;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wishes {
+    background-color: #fdeaea;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.wishes h2 {
+    color: #b85c5c;
+    font-family: 'Playfair Display', serif;
+}
+
+.signature {
+    font-style: italic;
+    margin-top: 1.5rem;
+    color: #666;
+}
+
+footer {
+    margin-top: 3rem;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}
